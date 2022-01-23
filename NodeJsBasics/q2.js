@@ -97,5 +97,5 @@ let jsondata = [
   },
 ];
 
-let result = template({ data: data });
+let result = template({ jsondata: jsondata });
 console.log(result);
