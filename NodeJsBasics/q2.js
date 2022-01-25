@@ -1,3 +1,4 @@
+let Handlebars= require('handlebars')
 let source =
   "<products> {{#each jsondata}} " +
   "<product>" +
